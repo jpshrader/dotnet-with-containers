@@ -31,7 +31,7 @@ public class WeatherForecastController : ControllerBase
     }
 }
 
-private class WeatherForecast
+public class WeatherForecast
 {
     public DateOnly Date { get; set; }
 
